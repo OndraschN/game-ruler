@@ -1,0 +1,13 @@
+package de.ondrasch.gameruler;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GameRulerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GameRulerApplication.class, args);
+	}
+
+}
